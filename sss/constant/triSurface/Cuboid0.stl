@@ -1,0 +1,96 @@
+solid XMin0
+facet normal -1 0 0
+outer loop
+vertex 0.25 0.75 1
+vertex 0.25 0.75 0.5
+vertex 0.25 0.25 1
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0.25 0.75 0.5
+vertex 0.25 0.25 0.5
+vertex 0.25 0.25 1
+endloop
+endfacet
+endsolid XMin0
+solid XMax0
+facet normal 1 0 0
+outer loop
+vertex 0.75 0.25 1
+vertex 0.75 0.75 0.5
+vertex 0.75 0.75 1
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 0.75 0.25 1
+vertex 0.75 0.25 0.5
+vertex 0.75 0.75 0.5
+endloop
+endfacet
+endsolid XMax0
+solid YMin0
+facet normal 0 -1 0
+outer loop
+vertex 0.25 0.25 0.5
+vertex 0.75 0.25 0.5
+vertex 0.75 0.25 1
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0.25 0.25 1
+vertex 0.25 0.25 0.5
+vertex 0.75 0.25 1
+endloop
+endfacet
+endsolid YMin0
+solid YMax0
+facet normal 0 1 0
+outer loop
+vertex 0.75 0.75 1
+vertex 0.75 0.75 0.5
+vertex 0.25 0.75 0.5
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0.75 0.75 1
+vertex 0.25 0.75 0.5
+vertex 0.25 0.75 1
+endloop
+endfacet
+endsolid YMax0
+solid ZMin0
+facet normal 0 0 -1
+outer loop
+vertex 0.25 0.25 0.5
+vertex 0.25 0.75 0.5
+vertex 0.75 0.75 0.5
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0.75 0.25 0.5
+vertex 0.25 0.25 0.5
+vertex 0.75 0.75 0.5
+endloop
+endfacet
+endsolid ZMin0
+solid ZMax0
+facet normal 0 0 1
+outer loop
+vertex 0.75 0.75 1
+vertex 0.25 0.75 1
+vertex 0.25 0.25 1
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0.75 0.75 1
+vertex 0.25 0.25 1
+vertex 0.75 0.25 1
+endloop
+endfacet
+endsolid ZMax0
